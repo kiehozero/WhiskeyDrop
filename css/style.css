@@ -1,0 +1,44 @@
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+alert-container {
+  background: url(images/bg.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+favourites-container {
+  background: url() no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+features-container {
+  background: url(https://p0.pikrepo.com/preview/843/253/clear-drinking-glass-with-brown-liquid-thumbnail.jpg) no-repeat bottom right fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+quotes-container {
+  background: url(https://p1.pxfuel.com/preview/827/948/60/whiskey-jameson-glass-alcohol.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+callout-container {
+  height: 100vh;
+  background: url(images/bg.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
