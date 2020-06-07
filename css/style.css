@@ -2,15 +2,28 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
-alert-container {
-  background: url(images/bg.jpg) no-repeat center center fixed;
+.alert-container {
+  background: url(#) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
 }
 
-favourites-container {
+.alert-container .col-12 {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.site-wide-alert {
+    border-radius: 0;
+    margin-bottom: 0;
+    padding: 5px 15px;
+    background-color: #eec802;
+    border-color: #eec802;
+}
+
+.favourites-container {
   background: url() no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -18,15 +31,15 @@ favourites-container {
   background-size: cover;
 }
 
-features-container {
-  background: url(https://p0.pikrepo.com/preview/843/253/clear-drinking-glass-with-brown-liquid-thumbnail.jpg) no-repeat bottom right fixed;
+.features-container {
+  background: url(#) no-repeat bottom right fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
 }
 
-quotes-container {
+.quotes-container {
   background: url(https://p1.pxfuel.com/preview/827/948/60/whiskey-jameson-glass-alcohol.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -34,11 +47,122 @@ quotes-container {
   background-size: cover;
 }
 
-callout-container {
+.callout-container {
   height: 100vh;
-  background: url(images/bg.jpg) no-repeat center center fixed;
+  background: url(https://p0.pikrepo.com/preview/843/253/clear-drinking-glass-with-brown-liquid-thumbnail.jpg) no-repeat bottom right fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  position: relative;
 }
+
+.opaque-overlay {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0,0,0,.5)
+}
+
+/* Nav Bar */
+
+.navalert-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.navbar {
+    margin-bottom: 0;
+    border: 0;
+    width: 100%;
+    background-color: rgba(0,0,0,.25);
+}
+
+.navbar .navbar-toggler {
+    border: 0;
+}
+
+.navbar-brand {
+    font-weight: bold;
+}
+
+.navbar .navbar-nav a {
+    font-weight: bold;
+}
+
+/* Jumbotron */
+
+.jumbotron {
+    background-color: transparent;
+}
+
+.jumbotron h1 {
+    color: white;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.jumbotron small {
+    color: #d0d0d0;
+    font-size: 60%;
+    font-style: italic;
+}
+
+.jumbotron .lead {
+    margin: 25px 0;
+    color: #ded2d2;
+}
+
+.block-divider {
+    width: 75px;
+    height: 5px;
+    border: 0;
+    background-color: #f40f40;
+}
+
+.block-divider--short {
+    width: 35px;
+    height: 5px;
+    border: 0;
+    background-color: #f05f40;
+}
+
+/* Buttons */
+
+.btn--cta {
+    font-weight: bold;
+    border-radius: 23px;
+    width: 160px;
+}
+
+.btn--red {
+    color: white;
+    background-color: #f05f40;
+    border-color: #f05f40;
+}
+
+.btn--red:hover {
+    background-color: #df4929;
+    border-color: #df4929;
+}
+
+.btn--red:active {
+}
+
+.btn--red:focus {
+}
+
+.btn--red:active:focus {
+}
+
