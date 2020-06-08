@@ -2,6 +2,16 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
+.container-wrapper {
+
+}
+
+.container-wrapper--red {
+    background-color: #f05f40;
+    color: white;
+}
+}
+
 .alert-container {
   background: url(#) no-repeat center center fixed;
   -webkit-background-size: cover;
@@ -71,6 +81,17 @@ body {
     background-color: rgba(0,0,0,.5)
 }
 
+.feature {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.feature i {
+    margin-bottom: 40px;
+    font-size: 45px;
+    line-height: 45px;
+}
+
 /* Nav Bar */
 
 .navalert-container {
@@ -124,18 +145,31 @@ body {
     color: #ded2d2;
 }
 
+/* Block Dividers */
+
 .block-divider {
     width: 75px;
     height: 5px;
     border: 0;
-    background-color: #f40f40;
+    background-color: #444;
 }
 
 .block-divider--short {
     width: 35px;
     height: 5px;
     border: 0;
-    background-color: #f05f40;
+    background-color: #444;
+}
+
+.block-divider--white {
+    background-color: white;
+}
+
+/* Content Containers */
+
+.content-container {
+    padding-top: 75px;
+    padding-bottom: 75px;
 }
 
 /* Buttons */
@@ -166,3 +200,27 @@ body {
 .btn--red:active:focus {
 }
 
+.feature-button{
+    background-color: white;
+    border-color: white;
+    border-radius: 15px;
+    min-width: 100px;
+    font-weight: bold;
+    margin-top: 10px;
+    color:#f05f40;
+}
+/* Headers */
+
+.page-header {
+    margin-bottom: 0;
+    border-bottom: 0;
+    text-align: center;
+}
+
+.page-header h2 {
+    margin-top: 0
+}
+
+.quotes .page-header {
+    margin-bottom: 25px;
+}
